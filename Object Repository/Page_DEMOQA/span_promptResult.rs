@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_promptResult</name>
+   <tag></tag>
+   <elementGuidId>bc7cc67f-14c5-4928-9c06-166e6230a95c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#promptResult</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'promptResult']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;You entered joli&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>80cb98f8-2183-4de4-beb1-099de3fd6113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>promptResult</value>
+      <webElementGuid>4fbbdcd7-9902-4008-a079-c8053c1f6de9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-success</value>
+      <webElementGuid>3c8a570f-2ab5-4289-b330-e65dec2d7364</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>promptResult</value>
+      <webElementGuid>0dba967f-3d58-4938-8ee5-9728d508cf9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>You entered joli</value>
+      <webElementGuid>162578df-e739-4d3d-9c6e-df1dec6a8d35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2804294f696c0c9f6bf39d8c438478f9</value>
+      <webElementGuid>2ebf3e57-8553-426c-aa88-2e7e68f2274d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'promptResult']</value>
+      <webElementGuid>8960f0ba-33c0-445b-ba66-8fe8ea14027c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'promptResult']</value>
+      <webElementGuid>bf802d3e-b941-42ba-ba43-5ee26640752a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'promptResult' and (text() = 'promptResult' or . = 'promptResult')]</value>
+      <webElementGuid>a8385bbe-4fd4-4fc5-abac-38525a0b5079</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_confirmButton</name>
+   <tag></tag>
+   <elementGuidId>077d1dab-af89-456e-a0fe-6193b611a3ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#confirmButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'confirmButton']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#confirmButton</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d59107cd-ce96-48b8-a79a-eeb6703325a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>confirmButton</value>
+      <webElementGuid>8a83b6cc-9ee8-4f30-bc06-5a0beac2a57a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ecc290be-7e2f-49a2-8beb-aa6a046370a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>b6b3548a-acaf-45d4-80dc-4f6d9db2026a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>confirmButton</value>
+      <webElementGuid>9f0d5e78-a8e3-47f3-aec0-54dfcbb91d50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Click me</value>
+      <webElementGuid>46ac90f7-c127-4709-adbb-3b138a79536e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-bc7a15b5660bc8b7376ad342d9bf8817</value>
+      <webElementGuid>bd816964-a309-487f-aee3-cc5b69df90f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'confirmButton']</value>
+      <webElementGuid>0053ebea-fe6f-4a67-bb2e-a0f035033d7e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'confirmButton']</value>
+      <webElementGuid>b9c1ff9d-2b29-4b93-9b76-d91a149a8249</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'confirmButton' and @type = 'button' and (text() = 'confirmButton' or . = 'confirmButton')]</value>
+      <webElementGuid>22fce1e6-7936-4082-8d4d-0e835fe1a7cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

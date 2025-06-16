@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_confirmResult</name>
+   <tag></tag>
+   <elementGuidId>3956c8a0-058c-47d0-990c-272169d649d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#confirmResult</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'confirmResult']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;You selected Ok&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3eb989ca-b14a-4fac-8b95-04625131d8be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>confirmResult</value>
+      <webElementGuid>f91067a6-82ab-4617-8cec-ef351200f97f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-success</value>
+      <webElementGuid>fc0a66f0-35cf-4f77-9c03-9b6dc1477862</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>confirmResult</value>
+      <webElementGuid>6bd158e1-2178-4935-8b9d-8e61d8c0fdf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>You selected Ok</value>
+      <webElementGuid>b54f582f-ebdd-491d-9ffd-63df3d92cd4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3e28261242e92ea80f847c34a4f3fccb</value>
+      <webElementGuid>80e8a119-395c-4d43-92ed-e057af759f88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'confirmResult']</value>
+      <webElementGuid>9d151a8f-ab56-41f3-b88a-ac07c269f342</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'confirmResult']</value>
+      <webElementGuid>6f9ad3c1-c4a4-4fcd-9668-8b7ceefacb3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'confirmResult' and (text() = 'confirmResult' or . = 'confirmResult')]</value>
+      <webElementGuid>190914fd-75a0-487c-98a7-6b52bec05b78</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_showSmallModal</name>
+   <tag></tag>
+   <elementGuidId>15803fc5-8745-4e60-abc4-fa32a9b7122d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#showSmallModal</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'showSmallModal']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Small modal&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7131204e-ab74-4cf5-89f5-f2bac6335ebe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>showSmallModal</value>
+      <webElementGuid>2dc27f78-d547-42c2-8977-6a3699dc134c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>817799bb-b20b-445c-b8f9-e2416f463561</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mr-4 mt-2 btn btn-primary</value>
+      <webElementGuid>25b75fe4-144d-4075-b50e-fbcdc0b288af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>showSmallModal</value>
+      <webElementGuid>ac5cdee3-9da3-4099-a11d-c64d41da6d75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Small modal</value>
+      <webElementGuid>eb84d5d3-d827-489d-b6ed-eccc651faa6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3bfa7d22efa2f0a5b030bfc34507f499</value>
+      <webElementGuid>76a9663c-2271-49ef-b24b-b234e13ecc7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'showSmallModal']</value>
+      <webElementGuid>cc6cc2dc-f49e-49dc-a869-00fc4cb16f2b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'showSmallModal']</value>
+      <webElementGuid>f671b97c-9be8-424f-a39e-b0ff9dec28dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'showSmallModal' and @type = 'button' and (text() = 'showSmallModal' or . = 'showSmallModal')]</value>
+      <webElementGuid>784abc86-9bb1-4916-b8ec-f518b3529d61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
