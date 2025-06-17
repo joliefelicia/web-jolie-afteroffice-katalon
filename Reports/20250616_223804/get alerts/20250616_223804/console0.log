@@ -1,0 +1,122 @@
+2025-06-16 22:38:10.474 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/get alerts
+2025-06-16 22:38:10.631 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Jolie Felicia
+2025-06-16 22:38:10.638 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = web-jolie-afteroffice-katalon
+2025-06-16 22:38:10.640 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = asus2 - Jolie
+2025-06-16 22:38:10.640 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-06-16 22:38:10.641 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.3
+2025-06-16 22:38:10.643 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-06-16 22:38:11.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-16 22:38:11.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/alert/alerts
+2025-06-16 22:38:11.880 DEBUG testcase.alerts                          - 1: openBrowser("")
+2025-06-16 22:38:12.270 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-16 22:38:12.358 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 16, 2025 10:38:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 16, 2025 10:38:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-16 22:38:17.128 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7faef0e3fd11790b089f12af4c3a715a
+2025-06-16 22:38:17.134 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.104
+2025-06-16 22:38:17.140 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-16 22:38:17.146 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-16 22:38:17.170 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-16 22:38:17.277 DEBUG testcase.alerts                          - 2: navigateToUrl("https://demoqa.com/alerts")
+2025-06-16 22:38:27.220 DEBUG testcase.alerts                          - 3: scrollToElement(findTestObject("Page_DEMOQA/button_alertButton"), 0)
+2025-06-16 22:38:27.644 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-16 22:38:30.955 DEBUG testcase.alerts                          - 4: click(findTestObject("Page_DEMOQA/button_alertButton"))
+2025-06-16 22:38:31.815 DEBUG testcase.alerts                          - 5: driver = getWebDriver()
+2025-06-16 22:38:31.886 DEBUG testcase.alerts                          - 6: AlertText = alert().getText()
+2025-06-16 22:38:32.069 DEBUG testcase.alerts                          - 7: println(AlertText)
+You clicked a button
+2025-06-16 22:38:32.085 DEBUG testcase.alerts                          - 8: delay(5)
+2025-06-16 22:38:37.189 DEBUG testcase.alerts                          - 9: acceptAlert()
+2025-06-16 22:38:37.250 DEBUG testcase.alerts                          - 10: closeBrowser()
+2025-06-16 22:38:37.951 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/alert/alerts
+2025-06-16 22:38:37.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-16 22:38:37.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/alert/confirm alert
+2025-06-16 22:38:38.202 DEBUG testcase.confirm alert                   - 1: openBrowser("")
+2025-06-16 22:38:38.214 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-16 22:38:38.219 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 16, 2025 10:38:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 16, 2025 10:38:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-16 22:38:40.779 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9f63497ccb1d36daa9dede47efc9b97f
+2025-06-16 22:38:40.782 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.104
+2025-06-16 22:38:40.785 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-16 22:38:40.787 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-16 22:38:40.789 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-16 22:38:40.851 DEBUG testcase.confirm alert                   - 2: navigateToUrl("https://demoqa.com/alerts")
+2025-06-16 22:38:51.396 DEBUG testcase.confirm alert                   - 3: scrollToElement(findTestObject("Page_DEMOQA/button_confirmButton"), 0)
+2025-06-16 22:38:51.437 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-16 22:38:53.215 DEBUG testcase.confirm alert                   - 4: click(findTestObject("Page_DEMOQA/button_confirmButton"))
+2025-06-16 22:38:53.935 DEBUG testcase.confirm alert                   - 5: dismissAlert()
+2025-06-16 22:38:54.121 DEBUG testcase.confirm alert                   - 6: data = getText(findTestObject("Page_DEMOQA/span_confirmResult"))
+2025-06-16 22:38:54.658 DEBUG testcase.confirm alert                   - 7: println(data)
+You selected Cancel
+2025-06-16 22:38:54.665 DEBUG testcase.confirm alert                   - 8: delay(5)
+2025-06-16 22:38:59.683 DEBUG testcase.confirm alert                   - 9: click(findTestObject("Page_DEMOQA/button_confirmButton"))
+2025-06-16 22:39:00.074 DEBUG testcase.confirm alert                   - 10: acceptAlert()
+2025-06-16 22:39:00.096 DEBUG testcase.confirm alert                   - 11: data = getText(findTestObject("Page_DEMOQA/span_confirmResult"))
+2025-06-16 22:39:00.393 DEBUG testcase.confirm alert                   - 12: println(data)
+You selected Ok
+2025-06-16 22:39:00.398 DEBUG testcase.confirm alert                   - 13: delay(5)
+2025-06-16 22:39:05.423 DEBUG testcase.confirm alert                   - 14: closeBrowser()
+2025-06-16 22:39:05.692 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/alert/confirm alert
+2025-06-16 22:39:05.697 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-16 22:39:05.697 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/alert/prompt alert
+2025-06-16 22:39:05.802 DEBUG testcase.prompt alert                    - 1: openBrowser("")
+2025-06-16 22:39:05.809 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-16 22:39:05.810 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 16, 2025 10:39:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 16, 2025 10:39:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-16 22:39:08.042 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fb17487d489793f60c3c13a27f25f808
+2025-06-16 22:39:08.043 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.104
+2025-06-16 22:39:08.044 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-16 22:39:08.044 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-16 22:39:08.046 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-16 22:39:08.069 DEBUG testcase.prompt alert                    - 2: navigateToUrl("https://demoqa.com/alerts")
+2025-06-16 22:39:17.962 DEBUG testcase.prompt alert                    - 3: scrollToElement(findTestObject("Page_DEMOQA/button_promtButton"), 0)
+2025-06-16 22:39:17.992 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-16 22:39:20.066 DEBUG testcase.prompt alert                    - 4: click(findTestObject("Page_DEMOQA/button_promtButton"))
+2025-06-16 22:39:21.947 DEBUG testcase.prompt alert                    - 5: driver = getWebDriver()
+2025-06-16 22:39:21.957 DEBUG testcase.prompt alert                    - 6: alert().sendKeys("Testing")
+2025-06-16 22:39:22.055 DEBUG testcase.prompt alert                    - 7: acceptAlert()
+2025-06-16 22:39:22.100 DEBUG testcase.prompt alert                    - 8: inputdata = getText(findTestObject("Page_DEMOQA/span_promptResult"))
+2025-06-16 22:39:22.632 DEBUG testcase.prompt alert                    - 9: println(inputdata)
+You entered Testing
+2025-06-16 22:39:22.632 DEBUG testcase.prompt alert                    - 10: delay(10)
+2025-06-16 22:39:32.649 DEBUG testcase.prompt alert                    - 11: closeBrowser()
+2025-06-16 22:39:32.942 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/alert/prompt alert
+2025-06-16 22:39:32.947 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-16 22:39:32.947 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/alert/timer alert
+2025-06-16 22:39:33.082 DEBUG testcase.timer alert                     - 1: openBrowser("")
+2025-06-16 22:39:33.082 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-16 22:39:33.098 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 16, 2025 10:39:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 16, 2025 10:39:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-16 22:39:35.420 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 36046d0b309473bee6987bd19e45985b
+2025-06-16 22:39:35.422 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.104
+2025-06-16 22:39:35.422 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-16 22:39:35.422 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-16 22:39:35.422 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-16 22:39:35.442 DEBUG testcase.timer alert                     - 2: navigateToUrl("https://demoqa.com/alerts")
+2025-06-16 22:39:41.693 DEBUG testcase.timer alert                     - 3: scrollToElement(findTestObject("Page_DEMOQA/button_timerAlertButton"), 0)
+2025-06-16 22:39:41.733 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-16 22:39:44.091 DEBUG testcase.timer alert                     - 4: click(findTestObject("Page_DEMOQA/button_timerAlertButton"))
+2025-06-16 22:39:44.879 DEBUG testcase.timer alert                     - 5: waitForAlert(5)
+2025-06-16 22:39:50.124 DEBUG testcase.timer alert                     - 6: driver = getWebDriver()
+2025-06-16 22:39:50.129 DEBUG testcase.timer alert                     - 7: AlertText = alert().getText()
+2025-06-16 22:39:50.175 DEBUG testcase.timer alert                     - 8: println(AlertText)
+This alert appeared after 5 seconds
+2025-06-16 22:39:50.178 DEBUG testcase.timer alert                     - 9: delay(5)
+2025-06-16 22:39:55.190 DEBUG testcase.timer alert                     - 10: acceptAlert(STOP_ON_FAILURE)
+2025-06-16 22:39:55.227 DEBUG testcase.timer alert                     - 11: delay(5)
+2025-06-16 22:40:00.238 DEBUG testcase.timer alert                     - 12: closeBrowser()
+2025-06-16 22:40:00.547 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/alert/timer alert
+2025-06-16 22:40:00.618 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-16 22:40:00.618 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/get alerts
+2025-06-16 22:40:00.618 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

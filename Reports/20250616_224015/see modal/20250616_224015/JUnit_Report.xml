@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="see modal" time="44.66" tests="2" failures="0" errors="0">
+   <testsuite name="see modal" tests="2" failures="0" errors="0" time="44.66" skipped="0" timestamp="16-06-2025T22:40:21" hostname="asus2 - Jolie" id="Test Suites/see modal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\asus2\\New folder\\web-jolie-afteroffice-katalon\\Reports\\20250616_224015\\see modal\\20250616_224015"/>
+         <property name="logFiles" value="C:\\Users\\asus2\\New folder\\web-jolie-afteroffice-katalon\\Reports\\20250616_224015\\see modal\\20250616_224015\\console0.log, C:\\Users\\asus2\\New folder\\web-jolie-afteroffice-katalon\\Reports\\20250616_224015\\see modal\\20250616_224015\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus2 - Jolie"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+         <property name="browser" value="Chrome 137.0.7151.104"/>
+         <property name="userFullName" value="Jolie Felicia"/>
+         <property name="hostAddress" value="192.168.100.3"/>
+         <property name="sessionId" value="aea5cfb3fff408973ede34a86c06add0"/>
+         <property name="projectName" value="web-jolie-afteroffice-katalon"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/web testing/modals/small modal" time="25.137" classname="Test Cases/web testing/modals/small modal" status="PASSED">
+         <system-out><![CDATA[16-06-2025T22:40:22 - [TEST_CASE][PASSED] - Test Cases/web testing/modals/small modal: Test Cases/web testing/modals/small modal
+
+16-06-2025T22:40:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-06-2025T22:40:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-06-2025T22:40:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-06-2025T22:40:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-06-2025T22:40:27 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/modal-dialogs"): Navigate to 'https://demoqa.com/modal-dialogs' successfully
+
+16-06-2025T22:40:38 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/modal-dialogs' successfully
+
+16-06-2025T22:40:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_showSmallModal"), 0): Scroll to object 'Object Repository/Page_DEMOQA/button_showSmallModal' successfully
+
+16-06-2025T22:40:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-06-2025T22:40:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_showSmallModal' successfully
+
+16-06-2025T22:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/button_showSmallModal")): Object: 'Object Repository/Page_DEMOQA/button_showSmallModal' is clicked on
+
+16-06-2025T22:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_showSmallModal' is clicked on
+
+16-06-2025T22:40:40 - [TEST_STEP][PASSED] - modalcontent = getText(findTestObject("Page_DEMOQA/modal/div_contentsmartmodal")): Text of object 'Object Repository/Page_DEMOQA/modal/div_contentsmartmodal' is: 'This is a small modal. It has very less content'
+
+16-06-2025T22:40:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_DEMOQA/modal/div_contentsmartmodal' is: 'This is a small modal. It has very less content'
+
+16-06-2025T22:40:40 - [TEST_STEP][PASSED] - println(modalcontent): null
+
+16-06-2025T22:40:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+16-06-2025T22:40:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+16-06-2025T22:40:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/modal/button_closeSmallModal")): Object: 'Object Repository/Page_DEMOQA/modal/button_closeSmallModal' is clicked on
+
+16-06-2025T22:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/modal/button_closeSmallModal' is clicked on
+
+16-06-2025T22:40:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-06-2025T22:40:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web testing/modals/large modal" time="18.726" classname="Test Cases/web testing/modals/large modal" status="PASSED">
+         <system-out><![CDATA[16-06-2025T22:40:47 - [TEST_CASE][PASSED] - Test Cases/web testing/modals/large modal: Test Cases/web testing/modals/large modal
+
+16-06-2025T22:40:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-06-2025T22:40:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-06-2025T22:40:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-06-2025T22:40:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-06-2025T22:40:50 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/modal-dialogs"): Navigate to 'https://demoqa.com/modal-dialogs' successfully
+
+16-06-2025T22:40:56 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/modal-dialogs' successfully
+
+16-06-2025T22:40:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/button_showLargeModal"), 0): Scroll to object 'Object Repository/Page_DEMOQA/button_showLargeModal' successfully
+
+16-06-2025T22:40:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-06-2025T22:40:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/button_showLargeModal' successfully
+
+16-06-2025T22:40:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/button_showLargeModal")): Object: 'Object Repository/Page_DEMOQA/button_showLargeModal' is clicked on
+
+16-06-2025T22:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_showLargeModal' is clicked on
+
+16-06-2025T22:40:58 - [TEST_STEP][PASSED] - modalcontent = getText(findTestObject("Page_DEMOQA/modal/div_contentbigmodal")): Text of object 'Object Repository/Page_DEMOQA/modal/div_contentbigmodal' is: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+
+16-06-2025T22:40:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_DEMOQA/modal/div_contentbigmodal' is: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+
+16-06-2025T22:40:59 - [TEST_STEP][PASSED] - println(modalcontent): null
+
+16-06-2025T22:40:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+16-06-2025T22:41:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+16-06-2025T22:41:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/modal/button_closeLargeModal")): Object: 'Object Repository/Page_DEMOQA/modal/button_closeLargeModal' is clicked on
+
+16-06-2025T22:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/modal/button_closeLargeModal' is clicked on
+
+16-06-2025T22:41:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-06-2025T22:41:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-06-2025T22:40:21 - [TEST_SUITE][PASSED] - see modal: Test Cases/web testing/modals/large modal]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

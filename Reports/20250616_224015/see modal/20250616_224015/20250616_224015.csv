@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+see modal,Chrome 137.0.7151.104,,,16-06-2025 22:40:21,16-06-2025 22:41:06,44.728s,PASSED
+,,,,,,,
+Test Cases/web testing/modals/small modal,Chrome 137.0.7151.104,,,16-06-2025 22:40:22,16-06-2025 22:40:47,25.137s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.104,,,16-06-2025 22:40:22,16-06-2025 22:40:27,5.140s,PASSED
+"navigateToUrl(""https://demoqa.com/modal-dialogs"")",Chrome 137.0.7151.104,,,16-06-2025 22:40:27,16-06-2025 22:40:38,10.279s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_showSmallModal""), 0)",Chrome 137.0.7151.104,,,16-06-2025 22:40:38,16-06-2025 22:40:39,1.171s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_showSmallModal""))",Chrome 137.0.7151.104,,,16-06-2025 22:40:39,16-06-2025 22:40:40,0.895s,PASSED
+"modalcontent = getText(findTestObject(""Page_DEMOQA/modal/div_contentsmartmodal""))",Chrome 137.0.7151.104,,,16-06-2025 22:40:40,16-06-2025 22:40:40,0.627s,PASSED
+println(modalcontent),Chrome 137.0.7151.104,,,16-06-2025 22:40:40,16-06-2025 22:40:40,0.013s,PASSED
+delay(5),Chrome 137.0.7151.104,,,16-06-2025 22:40:40,16-06-2025 22:40:45,5.078s,PASSED
+"click(findTestObject(""Page_DEMOQA/modal/button_closeSmallModal""))",Chrome 137.0.7151.104,,,16-06-2025 22:40:45,16-06-2025 22:40:46,0.842s,PASSED
+closeBrowser(),Chrome 137.0.7151.104,,,16-06-2025 22:40:46,16-06-2025 22:40:47,0.526s,PASSED
+,,,,,,,
+Test Cases/web testing/modals/large modal,Chrome 137.0.7151.104,,,16-06-2025 22:40:47,16-06-2025 22:41:06,18.726s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.104,,,16-06-2025 22:40:47,16-06-2025 22:40:50,2.519s,PASSED
+"navigateToUrl(""https://demoqa.com/modal-dialogs"")",Chrome 137.0.7151.104,,,16-06-2025 22:40:50,16-06-2025 22:40:56,6.257s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_showLargeModal""), 0)",Chrome 137.0.7151.104,,,16-06-2025 22:40:56,16-06-2025 22:40:58,1.833s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_showLargeModal""))",Chrome 137.0.7151.104,,,16-06-2025 22:40:58,16-06-2025 22:40:58,0.828s,PASSED
+"modalcontent = getText(findTestObject(""Page_DEMOQA/modal/div_contentbigmodal""))",Chrome 137.0.7151.104,,,16-06-2025 22:40:58,16-06-2025 22:40:59,0.648s,PASSED
+println(modalcontent),Chrome 137.0.7151.104,,,16-06-2025 22:40:59,16-06-2025 22:40:59,0.005s,PASSED
+delay(5),Chrome 137.0.7151.104,,,16-06-2025 22:40:59,16-06-2025 22:41:04,5.024s,PASSED
+"click(findTestObject(""Page_DEMOQA/modal/button_closeLargeModal""))",Chrome 137.0.7151.104,,,16-06-2025 22:41:04,16-06-2025 22:41:05,1.010s,PASSED
+closeBrowser(),Chrome 137.0.7151.104,,,16-06-2025 22:41:05,16-06-2025 22:41:06,0.406s,PASSED

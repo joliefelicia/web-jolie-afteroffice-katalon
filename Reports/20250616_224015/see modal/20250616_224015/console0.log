@@ -1,0 +1,60 @@
+2025-06-16 22:40:21.247 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/see modal
+2025-06-16 22:40:21.400 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Jolie Felicia
+2025-06-16 22:40:21.401 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = web-jolie-afteroffice-katalon
+2025-06-16 22:40:21.402 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = asus2 - Jolie
+2025-06-16 22:40:21.403 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-06-16 22:40:21.403 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.3
+2025-06-16 22:40:21.404 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-06-16 22:40:22.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-16 22:40:22.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/modals/small modal
+2025-06-16 22:40:22.694 DEBUG testcase.small modal                     - 1: openBrowser("")
+2025-06-16 22:40:23.025 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-16 22:40:23.155 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 16, 2025 10:40:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 16, 2025 10:40:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-16 22:40:27.785 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6a29f90235107e326b3ca13c4d67b0d2
+2025-06-16 22:40:27.787 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.104
+2025-06-16 22:40:27.788 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-16 22:40:27.789 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-16 22:40:27.796 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-16 22:40:27.835 DEBUG testcase.small modal                     - 2: navigateToUrl("https://demoqa.com/modal-dialogs")
+2025-06-16 22:40:38.114 DEBUG testcase.small modal                     - 3: scrollToElement(findTestObject("Page_DEMOQA/button_showSmallModal"), 0)
+2025-06-16 22:40:38.380 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-16 22:40:39.286 DEBUG testcase.small modal                     - 4: click(findTestObject("Page_DEMOQA/button_showSmallModal"))
+2025-06-16 22:40:40.183 DEBUG testcase.small modal                     - 5: modalcontent = getText(findTestObject("Page_DEMOQA/modal/div_contentsmartmodal"))
+2025-06-16 22:40:40.813 DEBUG testcase.small modal                     - 6: println(modalcontent)
+This is a small modal. It has very less content
+2025-06-16 22:40:40.828 DEBUG testcase.small modal                     - 7: delay(5)
+2025-06-16 22:40:45.908 DEBUG testcase.small modal                     - 8: click(findTestObject("Page_DEMOQA/modal/button_closeSmallModal"))
+2025-06-16 22:40:46.750 DEBUG testcase.small modal                     - 9: closeBrowser()
+2025-06-16 22:40:47.282 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/modals/small modal
+2025-06-16 22:40:47.300 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-16 22:40:47.300 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/modals/large modal
+2025-06-16 22:40:47.484 DEBUG testcase.small modal                     - 1: openBrowser("")
+2025-06-16 22:40:47.496 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-16 22:40:47.498 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 16, 2025 10:40:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 16, 2025 10:40:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-16 22:40:49.947 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = aea5cfb3fff408973ede34a86c06add0
+2025-06-16 22:40:49.950 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.104
+2025-06-16 22:40:49.951 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-16 22:40:49.952 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-16 22:40:49.953 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-16 22:40:50.003 DEBUG testcase.small modal                     - 2: navigateToUrl("https://demoqa.com/modal-dialogs")
+2025-06-16 22:40:56.261 DEBUG testcase.small modal                     - 3: scrollToElement(findTestObject("Page_DEMOQA/button_showLargeModal"), 0)
+2025-06-16 22:40:56.292 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-16 22:40:58.096 DEBUG testcase.small modal                     - 4: click(findTestObject("Page_DEMOQA/button_showLargeModal"))
+2025-06-16 22:40:58.925 DEBUG testcase.small modal                     - 5: modalcontent = getText(findTestObject("Page_DEMOQA/modal/div_contentbigmodal"))
+2025-06-16 22:40:59.574 DEBUG testcase.small modal                     - 6: println(modalcontent)
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+2025-06-16 22:40:59.581 DEBUG testcase.small modal                     - 7: delay(5)
+2025-06-16 22:41:04.606 DEBUG testcase.small modal                     - 8: click(findTestObject("Page_DEMOQA/modal/button_closeLargeModal"))
+2025-06-16 22:41:05.617 DEBUG testcase.small modal                     - 9: closeBrowser()
+2025-06-16 22:41:06.026 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/modals/large modal
+2025-06-16 22:41:06.093 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-16 22:41:06.094 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/see modal
+2025-06-16 22:41:06.094 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

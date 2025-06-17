@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+get alerts,Chrome 137.0.7151.104,,,16-06-2025 22:38:10,16-06-2025 22:40:00,1m - 50.017s,PASSED
+,,,,,,,
+Test Cases/web testing/alert/alerts,Chrome 137.0.7151.104,,,16-06-2025 22:38:11,16-06-2025 22:38:37,26.620s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.104,,,16-06-2025 22:38:11,16-06-2025 22:38:17,5.399s,PASSED
+"navigateToUrl(""https://demoqa.com/alerts"")",Chrome 137.0.7151.104,,,16-06-2025 22:38:17,16-06-2025 22:38:27,9.941s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_alertButton""), 0)",Chrome 137.0.7151.104,,,16-06-2025 22:38:27,16-06-2025 22:38:30,3.735s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_alertButton""))",Chrome 137.0.7151.104,,,16-06-2025 22:38:30,16-06-2025 22:38:31,0.860s,PASSED
+driver = getWebDriver(),Chrome 137.0.7151.104,,,16-06-2025 22:38:31,16-06-2025 22:38:31,0.070s,PASSED
+AlertText = alert().getText(),Chrome 137.0.7151.104,Getting the text from the alert and storing it in Variable,,16-06-2025 22:38:31,16-06-2025 22:38:32,0.183s,PASSED
+println(AlertText),Chrome 137.0.7151.104,,,16-06-2025 22:38:32,16-06-2025 22:38:32,0.014s,PASSED
+delay(5),Chrome 137.0.7151.104,,,16-06-2025 22:38:32,16-06-2025 22:38:37,5.104s,PASSED
+acceptAlert(),Chrome 137.0.7151.104,,,16-06-2025 22:38:37,16-06-2025 22:38:37,0.060s,PASSED
+closeBrowser(),Chrome 137.0.7151.104,,,16-06-2025 22:38:37,16-06-2025 22:38:37,0.693s,PASSED
+,,,,,,,
+Test Cases/web testing/alert/confirm alert,Chrome 137.0.7151.104,,,16-06-2025 22:38:37,16-06-2025 22:39:05,27.725s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.104,,,16-06-2025 22:38:38,16-06-2025 22:38:40,2.648s,PASSED
+"navigateToUrl(""https://demoqa.com/alerts"")",Chrome 137.0.7151.104,,,16-06-2025 22:38:40,16-06-2025 22:38:51,10.536s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_confirmButton""), 0)",Chrome 137.0.7151.104,,,16-06-2025 22:38:51,16-06-2025 22:38:53,1.820s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_confirmButton""))",Chrome 137.0.7151.104,,,16-06-2025 22:38:53,16-06-2025 22:38:53,0.718s,PASSED
+dismissAlert(),Chrome 137.0.7151.104,,,16-06-2025 22:38:53,16-06-2025 22:38:54,0.186s,PASSED
+"data = getText(findTestObject(""Page_DEMOQA/span_confirmResult""))",Chrome 137.0.7151.104,,,16-06-2025 22:38:54,16-06-2025 22:38:54,0.534s,PASSED
+println(data),Chrome 137.0.7151.104,,,16-06-2025 22:38:54,16-06-2025 22:38:54,0.006s,PASSED
+delay(5),Chrome 137.0.7151.104,,,16-06-2025 22:38:54,16-06-2025 22:38:59,5.017s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_confirmButton""))",Chrome 137.0.7151.104,,,16-06-2025 22:38:59,16-06-2025 22:39:00,0.390s,PASSED
+acceptAlert(),Chrome 137.0.7151.104,,,16-06-2025 22:39:00,16-06-2025 22:39:00,0.021s,PASSED
+"data = getText(findTestObject(""Page_DEMOQA/span_confirmResult""))",Chrome 137.0.7151.104,,,16-06-2025 22:39:00,16-06-2025 22:39:00,0.296s,PASSED
+println(data),Chrome 137.0.7151.104,,,16-06-2025 22:39:00,16-06-2025 22:39:00,0.005s,PASSED
+delay(5),Chrome 137.0.7151.104,,,16-06-2025 22:39:00,16-06-2025 22:39:05,5.024s,PASSED
+closeBrowser(),Chrome 137.0.7151.104,,,16-06-2025 22:39:05,16-06-2025 22:39:05,0.266s,PASSED
+,,,,,,,
+Test Cases/web testing/alert/prompt alert,Chrome 137.0.7151.104,,,16-06-2025 22:39:05,16-06-2025 22:39:32,27.245s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.104,,,16-06-2025 22:39:05,16-06-2025 22:39:08,2.267s,PASSED
+"navigateToUrl(""https://demoqa.com/alerts"")",Chrome 137.0.7151.104,,,16-06-2025 22:39:08,16-06-2025 22:39:17,9.896s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_promtButton""), 0)",Chrome 137.0.7151.104,,,16-06-2025 22:39:17,16-06-2025 22:39:20,2.100s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_promtButton""))",Chrome 137.0.7151.104,,,16-06-2025 22:39:20,16-06-2025 22:39:21,1.880s,PASSED
+driver = getWebDriver(),Chrome 137.0.7151.104,,,16-06-2025 22:39:21,16-06-2025 22:39:21,0.008s,PASSED
+"alert().sendKeys(""Testing"")",Chrome 137.0.7151.104,"Passing the text in the text box in the Alert
+",,16-06-2025 22:39:21,16-06-2025 22:39:22,0.098s,PASSED
+acceptAlert(),Chrome 137.0.7151.104,,,16-06-2025 22:39:22,16-06-2025 22:39:22,0.044s,PASSED
+"inputdata = getText(findTestObject(""Page_DEMOQA/span_promptResult""))",Chrome 137.0.7151.104,,,16-06-2025 22:39:22,16-06-2025 22:39:22,0.530s,PASSED
+println(inputdata),Chrome 137.0.7151.104,,,16-06-2025 22:39:22,16-06-2025 22:39:22,0.000s,PASSED
+delay(10),Chrome 137.0.7151.104,,,16-06-2025 22:39:22,16-06-2025 22:39:32,10.017s,PASSED
+closeBrowser(),Chrome 137.0.7151.104,,,16-06-2025 22:39:32,16-06-2025 22:39:32,0.293s,PASSED
+,,,,,,,
+Test Cases/web testing/alert/timer alert,Chrome 137.0.7151.104,,,16-06-2025 22:39:32,16-06-2025 22:40:00,27.600s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.104,,,16-06-2025 22:39:33,16-06-2025 22:39:35,2.360s,PASSED
+"navigateToUrl(""https://demoqa.com/alerts"")",Chrome 137.0.7151.104,,,16-06-2025 22:39:35,16-06-2025 22:39:41,6.251s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_timerAlertButton""), 0)",Chrome 137.0.7151.104,,,16-06-2025 22:39:41,16-06-2025 22:39:44,2.398s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_timerAlertButton""))",Chrome 137.0.7151.104,,,16-06-2025 22:39:44,16-06-2025 22:39:44,0.787s,PASSED
+waitForAlert(5),Chrome 137.0.7151.104,,,16-06-2025 22:39:44,16-06-2025 22:39:50,5.241s,PASSED
+driver = getWebDriver(),Chrome 137.0.7151.104,,,16-06-2025 22:39:50,16-06-2025 22:39:50,0.004s,PASSED
+AlertText = alert().getText(),Chrome 137.0.7151.104,Getting the text from the alert and storing it in Variable,,16-06-2025 22:39:50,16-06-2025 22:39:50,0.043s,PASSED
+println(AlertText),Chrome 137.0.7151.104,,,16-06-2025 22:39:50,16-06-2025 22:39:50,0.000s,PASSED
+delay(5),Chrome 137.0.7151.104,,,16-06-2025 22:39:50,16-06-2025 22:39:55,5.012s,PASSED
+acceptAlert(STOP_ON_FAILURE),Chrome 137.0.7151.104,,,16-06-2025 22:39:55,16-06-2025 22:39:55,0.035s,PASSED
+delay(5),Chrome 137.0.7151.104,,,16-06-2025 22:39:55,16-06-2025 22:40:00,5.011s,PASSED
+closeBrowser(),Chrome 137.0.7151.104,,,16-06-2025 22:40:00,16-06-2025 22:40:00,0.307s,PASSED
