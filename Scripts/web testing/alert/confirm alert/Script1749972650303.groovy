@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Page_DEMOQA/alert/button_confirmButton'))
 
 WebUI.dismissAlert()
 
-data = WebUI.getText(findTestObject('Page_DEMOQA/span_confirmResult'))
+data = WebUI.getText(findTestObject('Page_DEMOQA/alert/span_confirmResult'))
 
 println(data)
 
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Page_DEMOQA/alert/button_confirmButton'))
 
 WebUI.acceptAlert()
 
-data = WebUI.getText(findTestObject('Page_DEMOQA/span_confirmResult'))
+data = WebUI.getText(findTestObject('Page_DEMOQA/alert/span_confirmResult'))
 
 println(data)
 

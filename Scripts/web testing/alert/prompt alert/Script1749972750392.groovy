@@ -34,7 +34,7 @@ driver.switchTo().alert().sendKeys('Testing')
 
 WebUI.acceptAlert()
 
-inputdata = WebUI.getText(findTestObject('Page_DEMOQA/span_promptResult'))
+inputdata = WebUI.getText(findTestObject('Page_DEMOQA/alert/span_promptResult'))
 
 println(inputdata)
 
