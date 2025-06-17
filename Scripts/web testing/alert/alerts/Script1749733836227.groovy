@@ -23,9 +23,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/alerts')
 
-WebUI.scrollToElement(findTestObject('Page_DEMOQA/button_alertButton'), 0)
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/alert/button_alertButton'), 0)
 
-WebUI.click(findTestObject('Page_DEMOQA/button_alertButton'))
+WebUI.click(findTestObject('Page_DEMOQA/alert/button_alertButton'))
 
 WebDriver driver = DriverFactory.getWebDriver()
 'Getting the text from the alert and storing it in Variable'

@@ -23,9 +23,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/alerts')
 
-WebUI.scrollToElement(findTestObject('Page_DEMOQA/button_confirmButton'), 0)
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/alert/button_confirmButton'), 0)
 
-WebUI.click(findTestObject('Page_DEMOQA/button_confirmButton'))
+WebUI.click(findTestObject('Page_DEMOQA/alert/button_confirmButton'))
 
 WebUI.dismissAlert()
 
@@ -35,7 +35,7 @@ println(data)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_DEMOQA/button_confirmButton'))
+WebUI.click(findTestObject('Page_DEMOQA/alert/button_confirmButton'))
 
 WebUI.acceptAlert()
 

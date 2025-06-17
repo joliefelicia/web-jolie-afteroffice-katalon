@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://demoqa.com/alerts')
 
 
-WebUI.scrollToElement(findTestObject('Page_DEMOQA/button_timerAlertButton'), 0)
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/alert/button_timerAlertButton'), 0)
 
-WebUI.click(findTestObject('Page_DEMOQA/button_timerAlertButton'))
+WebUI.click(findTestObject('Page_DEMOQA/alert/button_timerAlertButton'))
 
 WebUI.waitForAlert(5)
 

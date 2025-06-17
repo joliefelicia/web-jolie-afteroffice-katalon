@@ -23,9 +23,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/modal-dialogs')
 
-WebUI.scrollToElement(findTestObject('Page_DEMOQA/button_showSmallModal'), 0)
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/alert/button_showSmallModal'), 0)
 
-WebUI.click(findTestObject('Page_DEMOQA/button_showSmallModal'))
+WebUI.click(findTestObject('Page_DEMOQA/alert/button_showSmallModal'))
 
 modalcontent = WebUI.getText(findTestObject('Page_DEMOQA/modal/div_contentsmartmodal'))
 
